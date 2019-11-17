@@ -121,6 +121,11 @@ form input[type="text"],
             }
             #main > section.one {
                 background-color: #81918E;
-                background-image: url("../../images/banner.jpg");
-            }
-         
+                /* background-image: url("../../images/banner.jpg"); */
+				position: relative;
+			}
+         video {
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+		 }
